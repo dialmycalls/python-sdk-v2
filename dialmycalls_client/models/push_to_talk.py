@@ -113,7 +113,7 @@ class PushToTalk(object):
     def ringtone(self):
         """
         Gets the ringtone of this PushToTalk.
-        The ringtone to play to the user when connecting. Options: <a href=\"/onhold/elevator.mp3\" target=\"_blank\">elevator_music</a>, <a href=\"/onhold/islandfever.mp3\" target=\"_blank\">caribbean_music</a>, <a href=\"/onhold/mozartmarch.mp3\" target=\"_blank\">classical_music</a>, <a href=\"/onhold/digitalring.mp3\" target=\"_blank\">digital_ringing</a>, <a href=\"/onhold/oldring.mp3\" target=\"_blank\">old_phone_ringing</a>, <a href=\"/onhold/whenim46.mp3\" target=\"_blank\">goofy_music</a>
+        The ringtone to play to the user when connecting. Options: elevator_music, caribbean_music, classical_music, digital_ringing, old_phone_ringing, goofy_music
 
         :return: The ringtone of this PushToTalk.
         :rtype: str
@@ -124,7 +124,7 @@ class PushToTalk(object):
     def ringtone(self, ringtone):
         """
         Sets the ringtone of this PushToTalk.
-        The ringtone to play to the user when connecting. Options: <a href=\"/onhold/elevator.mp3\" target=\"_blank\">elevator_music</a>, <a href=\"/onhold/islandfever.mp3\" target=\"_blank\">caribbean_music</a>, <a href=\"/onhold/mozartmarch.mp3\" target=\"_blank\">classical_music</a>, <a href=\"/onhold/digitalring.mp3\" target=\"_blank\">digital_ringing</a>, <a href=\"/onhold/oldring.mp3\" target=\"_blank\">old_phone_ringing</a>, <a href=\"/onhold/whenim46.mp3\" target=\"_blank\">goofy_music</a>
+        The ringtone to play to the user when connecting. Options: elevator_music, caribbean_music, classical_music, digital_ringing, old_phone_ringing, goofy_music
 
         :param ringtone: The ringtone of this PushToTalk.
         :type: str

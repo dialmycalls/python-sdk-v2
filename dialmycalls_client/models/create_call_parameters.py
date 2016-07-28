@@ -177,7 +177,7 @@ class CreateCallParameters(object):
     def send_at(self):
         """
         Gets the send_at of this CreateCallParameters.
-        When the broadcast should be sent.
+        When the broadcast should be sent. (Ex: 2016-07-25T12:00:00+0000)
 
         :return: The send_at of this CreateCallParameters.
         :rtype: str
@@ -188,7 +188,7 @@ class CreateCallParameters(object):
     def send_at(self, send_at):
         """
         Sets the send_at of this CreateCallParameters.
-        When the broadcast should be sent.
+        When the broadcast should be sent. (Ex: 2016-07-25T12:00:00+0000)
 
         :param send_at: The send_at of this CreateCallParameters.
         :type: str

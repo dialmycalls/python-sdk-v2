@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **name** | **str** | (Required)  Name the broadcast. | [optional] 
 **keyword_id** | **str** | (Required)  The keyword id that should be associated with this broadcast. | [optional] 
 **messages** | **list[str]** | (Required)  List of messages to send (up to 10). | [optional] 
-**send_at** | **str** | When the broadcast should be sent. | [optional] 
+**send_at** | **str** | When the broadcast should be sent. (Ex: 2016-07-25T12:00:00+0000) | [optional] 
 **send_immediately** | **bool** | Should the broadcast go out immediately? | [optional] 
 **send_email** | **bool** | Also send an email to the contacts? | [optional] 
 **accessaccount_id** | **str** | Schedule this broadcast as an access account. | [optional] 
